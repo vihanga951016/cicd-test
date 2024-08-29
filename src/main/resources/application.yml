@@ -1,0 +1,11 @@
+server:
+  port: 8065
+
+spring:
+  application:
+    name: ts-queue-license
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: asd321
+    username: root
+    url: jdbc:mysql://localhost:3306/cicd?serverTimezone=UTC
