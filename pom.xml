@@ -10,8 +10,9 @@
 	</parent>
 	<groupId>com.example.vihanga</groupId>
 	<artifactId>cicd</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>cicd</name>
+	<version>1.0.0</version>
+    <packaging>jar</packaging>
+    <name>cicd-test</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -57,6 +58,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>${project.artifactId}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
